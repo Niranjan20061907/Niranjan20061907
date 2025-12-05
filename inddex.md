@@ -86,3 +86,4 @@ Python Pandas Microstructure
 
 <p align="center">
 <i>Let's connect and build the future of finance.</i>
+</p>
