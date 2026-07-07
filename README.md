@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="font-size: 3.5rem; font-weight: bold; margin-bottom: 0;">NIRANJAN K</h1>
-  <h3 style="font-weight: normal; margin-top: 0;">QUANT ENGINEER | ALGORITHMIC TRADER | CS ENGINEER</h3>
+  <h3 style="font-weight: normal; margin-top: 0;">SOFTWARE ENGINEER | CYBERSECURITY | SYSTEMS PROGRAMMING</h3>
 
   <p>
     <a href="https://www.linkedin.com/in/niranjan-krishnarajarajan-768625332/" target="_blank">
@@ -9,14 +9,14 @@
     <a href="mailto:k.niranjan2006@gmail.com">
       <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
-    <a href="https://github.com/niranjan20061907">
+    <a href="https://github.com/Niranjan20061907">
       <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
     </a>
   </p>
 
   <br />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3F8CFF&center=true&vCenter=true&width=600&lines=Building+Alpha-Generating+Strategies;Modeling+Stochastic+Volatility;Bridging+Math+and+Machine+Learning;Analyzing+Market+Microstructure" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3F8CFF&center=true&vCenter=true&width=650&lines=Building+Secure%2C+Air-Gapped+Systems;Hardening+Windows+%2F+OT+%2F+SCADA+Endpoints;Full-Stack+%2B+Systems-Level+Engineering;CIS+Benchmark+Compliance+Automation" alt="Typing SVG" />
 
 </div>
 
@@ -24,24 +24,103 @@
 
 ---
 
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **About Me**
+### 👋 **About Me**
 
-I am a **Computer Science Engineer** with a specialized focus on **Quantitative Finance**. My work bridges the gap between theoretical stochastic calculus and production-grade software engineering. I don't just backtest; I build autonomous agents that understand market friction, volatility surfaces, and order flow imbalances.
+I'm a **B.Tech Computer Science** student at **NIT Rourkela**, focused on **software engineering** with a strong specialization in **cybersecurity and systems-level programming**. I recently completed an **OT Security & Industrial Networking internship at Rockwell Automation**, where I built a full-stack compliance and hardening tool for air-gapped industrial systems. I'm also a **Robotics Software Engineer** on **Team Tiburon**, NIT Rourkela's Autonomous Underwater Vehicle (AUV) team.
 
-> *"Probability is not about the odds, but about the belief in the existence of an alternative outcome."*
-
-<br />
-
-### ⚡ **My Arsenal**
-
-| **Core Quant** | **Machine Learning** | **Development** |
-|:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=python,cpp,matlab,r" /> | <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,pandas" /> | <img src="https://skillicons.dev/icons?i=git,docker,aws,fastapi" /> |
-| *Stochastic Calculus, Monte Carlo* | *Deep RL, Time Series, Regressions* | *Microservices, API Design* |
+I like working close to the OS — registry internals, service hardening, process control — and shipping tools that are genuinely usable by non-experts, not just proof-of-concepts.
 
 <br />
 
-### 🚀 **Featured Projects**
+### 🛡️ **Featured Project — WinHardener**
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <h3>🛡️ WinHardener</h3>
+      <p><i>CIS Windows 11 Hardening & Compliance Tool</i></p>
+      <a href="https://github.com/Niranjan20061907/WinHardener">
+        <img src="https://img.shields.io/badge/View_Code-Repository-2ea44f?style=for-the-badge&logo=github" />
+      </a>
+    </td>
+    <td width="50%">
+      <b>The Problem:</b> Manual CIS compliance auditing on standalone, air-gapped OT/ICS Windows endpoints (HMIs, historians, engineering stations) is slow, error-prone, and doesn't scale.
+      <br /><br />
+      <b>The Solution:</b>
+      <ul>
+        <li>Built during my OT Security internship at <b>Rockwell Automation</b>.</li>
+        <li>Full-stack, zero-dependency, <b>air-gapped</b> Flask app — no CDNs, no internet required at runtime.</li>
+        <li>Maps to <b>57 controls</b> from the CIS Microsoft Windows 11 Benchmark v5.0.0 (password policy, account lockout, local policy, system services).</li>
+        <li>Applies all remediations in <b>under 10 seconds</b> via <code>secedit</code>, <code>reg.exe</code>, and <code>sc.exe</code> through Python <code>subprocess</code>.</li>
+        <li><b>RBAC</b> with hashed authentication — Admin (full remediation) vs Guest (read-only audit).</li>
+        <li><b>PDF compliance reporting</b> (fpdf2) and JSON audit logging for every policy change.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows_Registry-0078D6?style=flat-square&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/CIS_Benchmark-v5.0.0-2ea44f?style=flat-square" />
+</p>
+
+<br />
+
+### 💻 **Tech Stack**
+
+<table width="100%">
+<tr>
+<td valign="top" width="33%">
+
+**Languages**
+<img src="https://skillicons.dev/icons?i=python,cpp,js,html,css,solidity" />
+
+</td>
+<td valign="top" width="33%">
+
+**Backend & Systems**
+<img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs,git" />
+<br/><i>subprocess/winreg · secedit, reg.exe, sc.exe · RBAC & hashed auth</i>
+
+</td>
+<td valign="top" width="33%">
+
+**ML / Data**
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,pandas" />
+<br/><i>Deep RL (PPO) · GBM market simulators · time-series regression</i>
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
+
+**Security / Networking**
+<br/>
+Wireshark · OT/ICS & SCADA hardening · CIS Benchmark compliance · air-gapped deployment · Windows Group Policy internals · VMware P2V
+
+</td>
+<td valign="top" width="33%">
+
+**Web / Blockchain**
+<img src="https://skillicons.dev/icons?i=nextjs,solidity" />
+<br/><i>Smart contracts · off-chain indexing</i>
+
+</td>
+<td valign="top" width="33%">
+
+**Tools**
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode" />
+
+</td>
+</tr>
+</table>
+
+<br />
+
+### 🚀 **Other Projects**
 
 <table width="100%">
   <tr>
@@ -53,59 +132,45 @@ I am a **Computer Science Engineer** with a specialized focus on **Quantitative 
       </a>
     </td>
     <td width="50%">
-      <b>The Problem:</b> Traditional Black-Scholes hedging fails in markets with transaction costs and stochastic volatility.
-      <br /><br />
-      <b>The Solution:</b>
       <ul>
-        <li>Built a custom <code>Gymnasium</code> environment to simulate realistic market friction.</li>
-        <li>Trained a <b>PPO Agent (Reinforcement Learning)</b> to discover optimal "No-Trade Regions" automatically.</li>
-        <li>Achieved lower variance and higher P&L compared to standard Delta-Hedging benchmarks.</li>
+        <li>Custom <code>Gymnasium</code> environment simulating market friction and transaction costs.</li>
+        <li>Trained a <b>PPO agent</b> to learn optimal hedging bands beyond classic Black-Scholes delta-hedging.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/Gymnasium-000000?style=flat-square&logo=openai&logoColor=white" />
       </p>
     </td>
   </tr>
 </table>
-
-<br />
 
 <table width="100%">
   <tr>
     <td width="50%" align="center">
       <h3>📉 Order Flow Imbalance (OFI)</h3>
-      <p><i>Market Microstructure Alpha</i></p>
+      <p><i>Market Microstructure Signal Research</i></p>
       <a href="https://github.com/niranjan20061907/order-flow-imbalances">
         <img src="https://img.shields.io/badge/View_Code-Repository-2ea44f?style=for-the-badge&logo=github" />
       </a>
     </td>
     <td width="50%">
-      <b>The Goal:</b> Predict short-term price movements using Limit Order Book (LOB) data.
-      <br /><br />
-      <b>Key Contributions:</b>
       <ul>
-        <li>Engineered an <b>OFI (Order Flow Imbalance)</b> pipeline from raw tick data.</li>
-        <li>Implemented <b>Linear & Logistic Regression</b> models to forecast multi-horizon returns.</li>
-        <li>Validated signals against market noise to isolate true alpha.</li>
+        <li>Engineered an OFI feature pipeline from raw limit order book tick data.</li>
+        <li>Linear/logistic regression models forecasting multi-horizon returns.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
       </p>
     </td>
   </tr>
 </table>
 
-<br />
-
 <table width="100%">
   <tr>
     <td width="50%" align="center">
       <h3>💸 Flowmint</h3>
-      <p><i>DeFi Revenue Tokenization</i></p>
+      <p><i>DeFi Revenue Tokenization Platform</i></p>
       <a href="https://github.com/niranjan20061907/flowmint">
         <img src="https://img.shields.io/badge/View_Code-Repository-2ea44f?style=for-the-badge&logo=github" />
       </a>
@@ -115,13 +180,9 @@ I am a **Computer Science Engineer** with a specialized focus on **Quantitative 
       </a>
     </td>
     <td width="50%">
-      <b>The Concept:</b> A decentralized platform allowing creators to tokenize and trade future revenue streams.
-      <br /><br />
-      <b>Architecture:</b>
       <ul>
-        <li><b>Smart Contracts:</b> Solidity contracts for revenue splitting and token minting.</li>
-        <li><b>Backend:</b> FastAPI for off-chain indexing and user management.</li>
-        <li><b>Frontend:</b> Next.js dashboard for real-time asset tracking.</li>
+        <li><b>Solidity</b> smart contracts for revenue splitting and token minting.</li>
+        <li><b>FastAPI</b> backend for off-chain indexing, <b>Next.js</b> dashboard for real-time tracking.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
@@ -134,17 +195,15 @@ I am a **Computer Science Engineer** with a specialized focus on **Quantitative 
 
 <br />
 
-### 📚 **Quant Library (Currently Reading)**
+### 🌊 **Team Tiburon — Autonomous Underwater Vehicle Team**
 
-* 📖 *Options, Futures, and Other Derivatives* - John C. Hull
-* 📖 *Advances in Financial Machine Learning* - Marcos Lopez de Prado
-* 📖 *Stochastic Calculus for Finance II* - Steven Shreve
+Robotics Software Engineer at NIT Rourkela's AUV team, working on autonomy software for underwater competition robots.
 
 <br />
 
 ### 📊 **GitHub Analytics**
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=niranjan20061907&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=niranjan20061907&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Niranjan20061907&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Niranjan20061907&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
 </div>
